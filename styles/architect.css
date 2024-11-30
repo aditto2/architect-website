@@ -1,7 +1,22 @@
+/* shared-styles */
+
 * {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    background: #FF900E;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-bottom: 50px;
 }
 
 header {
@@ -13,6 +28,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .nav-title {
@@ -39,6 +55,10 @@ nav li a {
 
 /* banner-section */
 
+.banner {
+    align-items: center;
+}
+
 .banner-content {
     text-align: center;
     margin: 10px auto;
@@ -48,8 +68,64 @@ nav li a {
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
+    padding-bottom: 30px;
 }
 
 .banner-description {
     color: #727272;
+    padding-bottom: 40px;
+}
+
+header img {
+    width: 1000px;
+    /* padding: 50px 240px; */
+    position: relative;
+    right: 100px;
+}
+
+
+/* responsive-media-queries */
+
+/* responsive-for-mobile-device */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        padding-bottom: 20px;
+    }
+
+    nav ul {
+        padding-left: 30px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    header img {
+        width: 100%;
+        position: relative;
+        left: 5px;
+    }
+}
+
+
+/* responsive-for-tab */
+
+@media screen and (min-width:576px) and (max-width:996px) {
+    header {
+        padding: 40px;
+    }
+
+    header img {
+        width: 100%;
+        position: relative;
+        left: 10px;
+    }
 }
