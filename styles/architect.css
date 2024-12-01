@@ -143,9 +143,9 @@ main {
 
 .features {
     display: flex;
-    align-items: center;
-    margin: 130px 150px;
-    gap: 50px;
+    /* align-items: center; */
+    margin: 130px 60px;
+    gap: 100px;
 }
 
 .features .features-title {
@@ -194,12 +194,20 @@ main {
     background-color: #FF900E;
     color: #FFF;
     width: 250px;
-    padding:  30px  20px;
+    padding: 40px 20px;
     text-align: center;
+    position: relative;
+    bottom: 100px;
+    right: 70px;
 }
 
 .ten-years h2 {
     font-size: 3rem;
+    margin: 0px;
+}
+
+.ten-years p {
+    font-size: 1.5rem;
 }
 
 /* facts-section */
@@ -284,7 +292,8 @@ footer {
 
     nav,
     .facts-card-container,
-    .sponsor-img-container {
+    .sponsor-img-container,
+    .features {
         flex-direction: column;
     }
 
@@ -328,6 +337,40 @@ footer {
         padding: 20px;
         margin: 20px;
     }
+
+    .features-img img {
+        width: 100%;
+    }
+
+    .ten-years {
+        width: 100px;
+        padding: 10px;
+        position: relative;
+        bottom: 40px;
+        right: 25px;
+    }
+
+    .ten-years h2 {
+        font-size: 20px;
+    }
+
+    .ten-years p {
+        font-size: 10px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    .features-title {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .features {
+        margin: 30px;
+        gap: 40px;
+    }
 }
 
 
@@ -340,7 +383,8 @@ footer {
 
     nav,
     .teams-container,
-    .sponsor-img-container {
+    .sponsor-img-container,
+    .features {
         flex-direction: column;
     }
 
