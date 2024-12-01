@@ -317,6 +317,8 @@ footer {
 
     .teams-container {
         flex-direction: column-reverse;
+        margin: 20px;
+        padding-top: 10px;
     }
 
     .teams-img-container {
