@@ -201,6 +201,16 @@ main {
     gap: 20px;
 }
 
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 30px 100px;
+    margin: 50px 100px;
+    background-color: #FFF4E7;
+}
+
 /* responsive-media-queries */
 
 /* responsive-for-mobile-device */
@@ -249,6 +259,11 @@ main {
     .sponsor-section {
         margin: 20px;
         text-align: center;
+    }
+    
+    footer{
+        padding: 20px;
+        margin: 20px;
     }
 }
 
