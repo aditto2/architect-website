@@ -148,6 +148,7 @@ main {
 .facts-card-container {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .facts-card-container .card {
@@ -185,7 +186,8 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .facts-card-container {
         flex-direction: column;
     }
 
@@ -214,6 +216,11 @@ main {
     .teams-img-container {
         grid-template-columns: 1fr;
     }
+
+    .fact {
+        padding: 20px;
+        text-align: center;
+    }
 }
 
 
@@ -233,5 +240,10 @@ main {
         width: 100%;
         position: relative;
         left: 10px;
+    }
+
+    .fact {
+        padding: 20px;
+        text-align: center;
     }
 }
